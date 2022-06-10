@@ -1,0 +1,45 @@
+.App{
+    border: 1rem solid cadetblue;
+    height: 30rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1595452767427-0905ad9b036d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cXVlc3Rpb24lMjBtYXJrc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    color: whitesmoke;
+    
+    
+}
+
+.question {
+    margin-top: 1rem;
+    /* padding-bottom: 10px; */
+    height: 63%;
+    border: 5px solid whitesmoke;
+    background-color: whitesmoke;
+    opacity: 60%;
+}
+
+.reveal {
+    background-color: black;
+    color: whitesmoke;
+    opacity: 100%;
+}
+
+.category {
+    text-transform: capitalize;
+}
+
+.score {
+    color: whitesmoke;
+}
+
+button {
+    height: 1.5rem;
+    margin-right: 5px;
+}
+
+h2 {
+    color: black;
+    /* text-shadow: black 1px 0 10px; */
+}
