@@ -66,7 +66,7 @@ function App() {
           <React.Fragment>
           </React.Fragment>
       }
-      <button onClick={handleClick}>New Question</button>
+      <button onClick={handleClick}>- New Category -</button>
       <Question questionObj={questionObj} handleToggle={handleToggle} />
     </div>
   );

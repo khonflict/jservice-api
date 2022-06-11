@@ -4,7 +4,7 @@ function Question({ questionObj, handleToggle}) {
     console.log(questionObj.question === "" ? "click to play" : "playing");
     return (
             questionObj.question === "" ?
-                <h2>Let's Play!</h2>
+                <h2 className="letsPlay" >Let's Get Started!</h2>
             :
             <div className="question">
                 <h2 className="category">Category: {questionObj.category}</h2>
