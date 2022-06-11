@@ -66,7 +66,7 @@ function App() {
           <React.Fragment>
           </React.Fragment>
       }
-      <button onClick={handleClick}>Select Random Trivia Question</button>
+      <button onClick={handleClick}>New Question</button>
       <Question questionObj={questionObj} handleToggle={handleToggle} />
     </div>
   );

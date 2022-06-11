@@ -6,14 +6,14 @@
     margin-top: 5rem;
     text-align: center;
     background-image: url("https://images.unsplash.com/photo-1595452767427-0905ad9b036d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cXVlc3Rpb24lMjBtYXJrc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
-    color: whitesmoke;
-    
+    background-position: center;
+    background-size: cover;
+    color: black;
     
 }
 
 .question {
     margin-top: 1rem;
-    /* padding-bottom: 10px; */
     height: 63%;
     border: 5px solid whitesmoke;
     background-color: whitesmoke;
@@ -30,9 +30,9 @@
     text-transform: capitalize;
 }
 
-.score {
+/* .score {
     color: whitesmoke;
-}
+} */
 
 button {
     height: 1.5rem;
